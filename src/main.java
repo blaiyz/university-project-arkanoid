@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * A program that runs a game of Arkanoid.
  */
-public class Ass6Game {
+public class main {
     private static final int FPS = 60;
     private static final int WIDTH = 800;
     private static final int HEIGHT = 600;
