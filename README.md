@@ -1,7 +1,7 @@
 # university-project-arkanoid
 This is the final result of the project given as homework at my university. It is a simple game of Arkanoid with 3 levels and (epic) animations (that were definitely required to submit and not just something I wasted my time on)
 
-![preview](https://github.com/blaiyz/university-project-arkanoid/assets/139375534/8a1fa958-5490-4f9c-8cbd-ea45b8faab09)
+![preview](https://github.com/blaiyz/university-project-arkanoid/assets/139375534/3f017084-04a5-4a7b-af49-771724b3b41d)
 
 # How to run
 The project comes with an ant config file (`build.xml`).
