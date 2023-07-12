@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>game</OriginalElement>
+  <nodes>
+    <node x="400.54166666666674" y="1198.0">game.gui.rectangular_objects.Paddle</node>
+    <node x="1996.0451388888891" y="127.0">game.gui.animated_sprites.animation_types.SpriteAnimation</node>
+    <node x="1378.0" y="127.0">game.gui.rectangular_objects.RectSprite</node>
+    <node x="1675.0" y="861.5">game.gui.animated_sprites.animation_types.MoveYAnimation</node>
+    <node x="598.0000000000001" y="226.5">game.levels.lunar.Star</node>
+    <node x="1041.6557539682542" y="-104.5">game.gui.Sprite</node>
+    <node x="1738.0451388888891" y="248.5">game.levels.lunar.Moon</node>
+    <node x="203.0" y="1563.0">game.geometry.shapes.Line</node>
+    <node x="-124.0" y="2561.0">game.logic.physics.hit_event.BlockRemover</node>
+    <node x="558.0" y="1563.0">game.levels.lunar.Lunar</node>
+    <node x="472.54166666666674" y="652.0">game.gui.rectangular_objects.Block</node>
+    <node x="1145.0" y="2457.0">game.logic.physics.CollisionInfo</node>
+    <node x="1196.0" y="1563.0">game.levels.solar.Solar</node>
+    <node x="-124.0" y="1563.0">game.geometry.shapes.Rectangle</node>
+    <node x="1975.5" y="1563.0">game.logic.physics.Velocity</node>
+    <node x="1947.0" y="861.5">game.gui.animated_sprites.animation_types.MoveXAnimation</node>
+    <node x="919.0" y="1563.0">game.levels.martian.Martian</node>
+    <node x="1811.0" y="2457.0">game.gui.animated_sprites.ChangingSizeSpriteBuilder</node>
+    <node x="327.0000000000001" y="248.5">game.levels.solar.Cloud</node>
+    <node x="1404.0" y="2457.0">game.GameFlow</node>
+    <node x="627.0" y="2561.0">game.logic.physics.hit_event.PrintingHitListener</node>
+    <node x="286.25" y="2457.0">game.logic.physics.hit_event.HitListener</node>
+    <node x="1721.5" y="1690.0">game.gui.animated_sprites.phases.FadeIn</node>
+    <node x="138.0" y="2561.0">game.logic.physics.hit_event.BallRemover</node>
+    <node x="261.0" y="2020.0">game.geometry.shapes.Line.Orientation</node>
+    <node x="1142.0" y="237.0">game.levels.solar.Sun</node>
+    <node x="885.0" y="326.5">game.logic.physics.hit_event.HitNotifier</node>
+    <node x="1622.75" y="1563.0">game.gui.animated_sprites.phases.AnimationPhase</node>
+    <node x="-124.0" y="326.0">game.logic.physics.Collidable</node>
+    <node x="2219.0" y="861.5">game.gui.animated_sprites.animation_types.ScaleAnimation</node>
+    <node x="1505.5" y="1690.0">game.gui.animated_sprites.phases.Sine</node>
+    <node x="1346.0" y="806.0">game.gui.rectangular_objects.ScoreIndicator</node>
+    <node x="852.0" y="2457.0">game.logic.physics.GameEnvironment</node>
+    <node x="390.0" y="2561.0">game.logic.physics.hit_event.ScoreTrackingListener</node>
+    <node x="1473.0" y="1863.0">game.gui.animated_sprites.phases.PositiveOnlySine</node>
+    <node x="113.0" y="248.5">game.levels.lunar.Orbit</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="game.gui.rectangular_objects.Block" target="game.gui.rectangular_objects.RectSprite" relationship="GENERALIZATION">
+      <point x="60.25" y="-248.0" />
+      <point x="653.2916666666667" y="632.0" />
+      <point x="1500.5" y="632.0" />
+      <point x="0.0" y="237.5" />
+    </edge>
+    <edge source="game.logic.physics.hit_event.PrintingHitListener" target="game.logic.physics.hit_event.HitListener" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="717.0" y="2536.0" />
+      <point x="376.25" y="2536.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="game.gui.rectangular_objects.ScoreIndicator" target="game.gui.rectangular_objects.RectSprite" relationship="GENERALIZATION">
+      <point x="0.0" y="-94.0" />
+      <point x="0.0" y="237.5" />
+    </edge>
+    <edge source="game.gui.animated_sprites.phases.Sine" target="game.gui.animated_sprites.phases.AnimationPhase" relationship="REALIZATION">
+      <point x="0.0" y="-61.5" />
+      <point x="1603.5" y="1665.0" />
+      <point x="1714.75" y="1665.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="game.logic.physics.hit_event.BallRemover" target="game.logic.physics.hit_event.HitListener" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="254.0" y="2536.0" />
+      <point x="376.25" y="2536.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="game.gui.animated_sprites.phases.FadeIn" target="game.gui.animated_sprites.phases.AnimationPhase" relationship="REALIZATION">
+      <point x="0.0" y="-61.5" />
+      <point x="1826.0" y="1665.0" />
+      <point x="1714.75" y="1665.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="game.gui.animated_sprites.animation_types.MoveXAnimation" target="game.gui.animated_sprites.animation_types.SpriteAnimation" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="2073.0" y="632.0" />
+      <point x="2124.045138888889" y="632.0" />
+      <point x="0.0" y="237.5" />
+    </edge>
+    <edge source="game.levels.lunar.Star" target="game.gui.Sprite" relationship="REALIZATION">
+      <point x="-1.1368683772161603E-13" y="138.0" />
+      <point x="731.5" y="562.0" />
+      <point x="1353.5" y="562.0" />
+      <point x="1353.5" y="659.5" />
+      <point x="1640.5" y="659.5" />
+      <point x="1640.5" y="-127.0" />
+      <point x="1138.656" y="-127.0" />
+      <point x="2.4603174574622244E-4" y="-104.5" />
+    </edge>
+    <edge source="game.geometry.shapes.Line.Orientation" target="game.geometry.shapes.Line" relationship="INNER_CLASS">
+      <point x="0.0" y="-49.5" />
+      <point x="0.0" y="203.5" />
+    </edge>
+    <edge source="game.levels.solar.Sun" target="game.gui.Sprite" relationship="REALIZATION">
+      <point x="-0.0" y="127.5" />
+      <point x="1250.0" y="562.0" />
+      <point x="1353.5" y="562.0" />
+      <point x="1353.5" y="659.5" />
+      <point x="1640.5" y="659.5" />
+      <point x="1640.5" y="-127.0" />
+      <point x="1138.656" y="-127.0" />
+      <point x="2.4603174574622244E-4" y="-104.5" />
+    </edge>
+    <edge source="game.gui.animated_sprites.animation_types.MoveYAnimation" target="game.gui.animated_sprites.animation_types.SpriteAnimation" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="1801.0" y="632.0" />
+      <point x="2124.045138888889" y="632.0" />
+      <point x="0.0" y="237.5" />
+    </edge>
+    <edge source="game.gui.rectangular_objects.RectSprite" target="game.gui.Sprite" relationship="REALIZATION">
+      <point x="-0.0" y="-237.5" />
+      <point x="1500.5" y="-127.0" />
+      <point x="1138.656" y="-127.0" />
+      <point x="2.4603174574622244E-4" y="-104.5" />
+    </edge>
+    <edge source="game.levels.solar.Cloud" target="game.gui.Sprite" relationship="REALIZATION">
+      <point x="-1.1368683772161603E-13" y="116.0" />
+      <point x="452.5" y="562.0" />
+      <point x="1353.5" y="562.0" />
+      <point x="1353.5" y="659.5" />
+      <point x="1640.5" y="659.5" />
+      <point x="1640.5" y="-127.0" />
+      <point x="1138.656" y="-127.0" />
+      <point x="2.4603174574622244E-4" y="-104.5" />
+    </edge>
+    <edge source="game.levels.lunar.Orbit" target="game.gui.Sprite" relationship="REALIZATION">
+      <point x="-0.0" y="116.0" />
+      <point x="210.0" y="562.0" />
+      <point x="1353.5" y="562.0" />
+      <point x="1353.5" y="659.5" />
+      <point x="1640.5" y="659.5" />
+      <point x="1640.5" y="-127.0" />
+      <point x="1138.656" y="-127.0" />
+      <point x="2.4603174574622244E-4" y="-104.5" />
+    </edge>
+    <edge source="game.gui.animated_sprites.animation_types.SpriteAnimation" target="game.gui.Sprite" relationship="REALIZATION">
+      <point x="-1.3888888906876673E-4" y="-237.5" />
+      <point x="2124.045" y="-127.0" />
+      <point x="1138.656" y="-127.0" />
+      <point x="2.4603174574622244E-4" y="-104.5" />
+    </edge>
+    <edge source="game.gui.rectangular_objects.Block" target="game.logic.physics.Collidable" relationship="REALIZATION">
+      <point x="-60.25" y="-248.0" />
+      <point x="532.7916666666667" y="632.0" />
+      <point x="461.91666666666674" y="632.0" />
+      <point x="461.91666666666674" y="622.0" />
+      <point x="-15.5" y="622.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="game.logic.physics.hit_event.ScoreTrackingListener" target="game.logic.physics.hit_event.HitListener" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="498.5" y="2536.0" />
+      <point x="376.25" y="2536.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="game.gui.animated_sprites.phases.PositiveOnlySine" target="game.gui.animated_sprites.phases.Sine" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="game.logic.physics.hit_event.BlockRemover" target="game.logic.physics.hit_event.HitListener" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="-3.0" y="2536.0" />
+      <point x="376.25" y="2536.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="game.gui.animated_sprites.animation_types.ScaleAnimation" target="game.gui.animated_sprites.animation_types.SpriteAnimation" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="2345.0" y="632.0" />
+      <point x="2124.045138888889" y="632.0" />
+      <point x="0.0" y="237.5" />
+    </edge>
+    <edge source="game.levels.lunar.Moon" target="game.gui.Sprite" relationship="REALIZATION">
+      <point x="-1.3888888906876673E-4" y="-116.0" />
+      <point x="1835.045" y="-127.0" />
+      <point x="1138.656" y="-127.0" />
+      <point x="2.4603174574622244E-4" y="-104.5" />
+    </edge>
+    <edge source="game.gui.rectangular_objects.Paddle" target="game.gui.rectangular_objects.Block" relationship="GENERALIZATION">
+      <point x="0.0" y="-160.0" />
+      <point x="0.0" y="248.0" />
+    </edge>
+    <edge source="game.gui.rectangular_objects.Block" target="game.logic.physics.hit_event.HitNotifier" relationship="REALIZATION">
+      <point x="-60.25" y="-248.0" />
+      <point x="532.7916666666667" y="632.0" />
+      <point x="461.91666666666674" y="632.0" />
+      <point x="461.91666666666674" y="622.0" />
+      <point x="1003.5" y="622.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.3612231182795699" showDependencies="false" x="1638.659302325581" y="596.0818604651163" />
+  <SelectedNodes>
+    <node>game.gui.Sprite</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
