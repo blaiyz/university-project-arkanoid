@@ -7,6 +7,8 @@ This is the final result of the project given as homework at my university. It i
 The project comes with an ant config file (`build.xml`).
 Install ant here: https://ant.apache.org/manual/install.html
 
-Use `ant compile` in order to compile the project
-Use `ant run` in order to run the project with all the levels.
-Use `ant run -Dargs="x y z w ..."` in order to run the chosen levels in succession, where x, y, ... represent the indexes of the levels (starts with 1 and supports multiple of the same level). The normal `ant run` is equivalent to `ant run -Dargs="1 2 3"`.
+Run `ant compile` in order to compile the project
+
+Run `ant run` in order to run the project with all the levels.
+
+Run `ant run -Dargs="x y z w ..."` in order to run the chosen levels in succession, where x, y, ... represent the indexes of the levels (starts with 1 and supports multiple of the same level). The normal `ant run` is equivalent to `ant run -Dargs="1 2 3"`.
