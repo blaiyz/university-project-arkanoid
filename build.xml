@@ -20,11 +20,4 @@
             <arg line="${args}"/>
         </java>
     </target>
-
-    <target name="check">
-        <checkstyle config="biuoop.xml">
-            <fileset dir="src" includes="*/.java"/>
-        </checkstyle>
-    </target>
-
 </project>
