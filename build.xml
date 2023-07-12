@@ -21,9 +21,6 @@
         </java>
     </target>
 
-    <taskdef resource="com/puppycrawl/tools/checkstyle/ant/checkstyle-ant-task.properties"
-         classpath="checkstyle-8.44-all.jar"/>
-
     <target name="check">
         <checkstyle config="biuoop.xml">
             <fileset dir="src" includes="*/.java"/>
